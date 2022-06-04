@@ -12,5 +12,8 @@ export class HomePage {
   acessarPagina(){
     this.router.navigate(['/outra']);
   }
+  numeroAleatorio(){
+    console.log(Math.floor(Math.random() * 10));
+  }
 
 }
