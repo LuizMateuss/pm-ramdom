@@ -1,0 +1,16 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Ramdom
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-button expand="block" color="primary" [routerLink]="['/outra']">
+    Outra
+  </ion-button>
+
+  <ion-button expand="full" color="danger" (click)="acessarPagina()">Acessar Página</ion-button>
+  <ion-button expand="full" color="success" shape="round">Gerar Número</ion-button>
+</ion-content>
